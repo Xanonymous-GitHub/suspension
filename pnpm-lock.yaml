@@ -15,17 +15,17 @@ dependencies:
     specifier: ^4.29.12
     version: 4.29.12(react-dom@18.2.0)(react@18.2.0)
   '@trpc/client':
-    specifier: ^10.29.0
-    version: 10.29.0(@trpc/server@10.29.0)
+    specifier: ^10.29.1
+    version: 10.29.1(@trpc/server@10.29.1)
   '@trpc/next':
-    specifier: ^10.29.0
-    version: 10.29.0(@tanstack/react-query@4.29.12)(@trpc/client@10.29.0)(@trpc/react-query@10.29.0)(@trpc/server@10.29.0)(next@13.4.4)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^10.29.1
+    version: 10.29.1(@tanstack/react-query@4.29.12)(@trpc/client@10.29.1)(@trpc/react-query@10.29.1)(@trpc/server@10.29.1)(next@13.4.4)(react-dom@18.2.0)(react@18.2.0)
   '@trpc/react-query':
-    specifier: ^10.29.0
-    version: 10.29.0(@tanstack/react-query@4.29.12)(@trpc/client@10.29.0)(@trpc/server@10.29.0)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^10.29.1
+    version: 10.29.1(@tanstack/react-query@4.29.12)(@trpc/client@10.29.1)(@trpc/server@10.29.1)(react-dom@18.2.0)(react@18.2.0)
   '@trpc/server':
-    specifier: ^10.29.0
-    version: 10.29.0
+    specifier: ^10.29.1
+    version: 10.29.1
   next:
     specifier: ^13.4.4
     version: 13.4.4(react-dom@18.2.0)(react@18.2.0)
@@ -396,53 +396,53 @@ packages:
       use-sync-external-store: 1.2.0(react@18.2.0)
     dev: false
 
-  /@trpc/client@10.29.0(@trpc/server@10.29.0):
-    resolution: {integrity: sha512-2a5+xJarQaQNnmMHP73LdShNPFoXwQhUBKEK7zs/Fqy75kYKtwkBnbPPef4nJpAdG3JW0kbm8vbZcQ8T91oG1A==}
+  /@trpc/client@10.29.1(@trpc/server@10.29.1):
+    resolution: {integrity: sha512-+9Tifg6dtKsYLsqOW0wizqc3iILAkXxn16pyYAeMDPlulPEqNvnI85GDJ0zJOJLIkQnQefkRbtCmtDxLNtV9Eg==}
     peerDependencies:
-      '@trpc/server': 10.29.0
+      '@trpc/server': 10.29.1
     dependencies:
-      '@trpc/server': 10.29.0
+      '@trpc/server': 10.29.1
     dev: false
 
-  /@trpc/next@10.29.0(@tanstack/react-query@4.29.12)(@trpc/client@10.29.0)(@trpc/react-query@10.29.0)(@trpc/server@10.29.0)(next@13.4.4)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-z1ONRx522QnDdy0ejBnwB7MiTMQ7CGN4CYDi7KJmmkhk+g7xf3H3gttgN1dYR//faFHEwAtRKBwbiUSbRguQYA==}
+  /@trpc/next@10.29.1(@tanstack/react-query@4.29.12)(@trpc/client@10.29.1)(@trpc/react-query@10.29.1)(@trpc/server@10.29.1)(next@13.4.4)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-2RNnct2T+k5yExSy748Lv5IDPAKEvx/QKoAJIBo8FqRem3ypW6ZpRTxillyE+vyD8QVRtMaD4v0dnPaFeRhJ3g==}
     peerDependencies:
       '@tanstack/react-query': ^4.18.0
-      '@trpc/client': 10.29.0
-      '@trpc/react-query': 10.29.0
-      '@trpc/server': 10.29.0
+      '@trpc/client': 10.29.1
+      '@trpc/react-query': 10.29.1
+      '@trpc/server': 10.29.1
       next: '*'
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
     dependencies:
       '@tanstack/react-query': 4.29.12(react-dom@18.2.0)(react@18.2.0)
-      '@trpc/client': 10.29.0(@trpc/server@10.29.0)
-      '@trpc/react-query': 10.29.0(@tanstack/react-query@4.29.12)(@trpc/client@10.29.0)(@trpc/server@10.29.0)(react-dom@18.2.0)(react@18.2.0)
-      '@trpc/server': 10.29.0
+      '@trpc/client': 10.29.1(@trpc/server@10.29.1)
+      '@trpc/react-query': 10.29.1(@tanstack/react-query@4.29.12)(@trpc/client@10.29.1)(@trpc/server@10.29.1)(react-dom@18.2.0)(react@18.2.0)
+      '@trpc/server': 10.29.1
       next: 13.4.4(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       react-ssr-prepass: 1.5.0(react@18.2.0)
     dev: false
 
-  /@trpc/react-query@10.29.0(@tanstack/react-query@4.29.12)(@trpc/client@10.29.0)(@trpc/server@10.29.0)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-VwzPf8PX8aUexPVgS7KJd2f4jsQXCxz9E60Zn55UpCRe5nwmVK5jQfJAcMbHyPDmC+3D5lzM7+iQoIkw+mMcmA==}
+  /@trpc/react-query@10.29.1(@tanstack/react-query@4.29.12)(@trpc/client@10.29.1)(@trpc/server@10.29.1)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-yWsce8euPSVtn3SeBKXxLmq607/sqyIez7pgMOhMBKehRNdZzrGp3MhjmRwim+IUKLrw71kUgsw7w6uT5FPB0g==}
     peerDependencies:
       '@tanstack/react-query': ^4.18.0
-      '@trpc/client': 10.29.0
-      '@trpc/server': 10.29.0
+      '@trpc/client': 10.29.1
+      '@trpc/server': 10.29.1
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
     dependencies:
       '@tanstack/react-query': 4.29.12(react-dom@18.2.0)(react@18.2.0)
-      '@trpc/client': 10.29.0(@trpc/server@10.29.0)
-      '@trpc/server': 10.29.0
+      '@trpc/client': 10.29.1(@trpc/server@10.29.1)
+      '@trpc/server': 10.29.1
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@trpc/server@10.29.0:
-    resolution: {integrity: sha512-a/ZAc/TT6Cz0L/Ii4asJrgyclnNl/SiNeN+dZPVYJZlw7okeTdbHI1vePcQb/3+0GpwVQeSEkZpVpSgekH9YZQ==}
+  /@trpc/server@10.29.1:
+    resolution: {integrity: sha512-kNXgMh5ya+awuz2tB4eIyVrRs7nVtqGXwSGabzH3l5ZLWz7rbKJquOJ7h6bjvIfWUpaFG62HJNWxxGUtXCRgRw==}
     dev: false
 
   /@types/eslint@8.40.0:
@@ -754,7 +754,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.21.7
-      caniuse-lite: 1.0.30001492
+      caniuse-lite: 1.0.30001494
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -818,7 +818,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001492
+      caniuse-lite: 1.0.30001494
       electron-to-chromium: 1.4.419
       node-releases: 2.0.12
       update-browserslist-db: 1.0.11(browserslist@4.21.7)
@@ -855,8 +855,8 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /caniuse-lite@1.0.30001492:
-    resolution: {integrity: sha512-2efF8SAZwgAX1FJr87KWhvuJxnGJKOnctQa8xLOskAXNXq8oiuqgl6u1kk3fFpsp3GgvzlRjiK1sl63hNtFADw==}
+  /caniuse-lite@1.0.30001494:
+    resolution: {integrity: sha512-sY2B5Qyl46ZzfYDegrl8GBCzdawSLT4ThM9b9F+aDYUrAG2zCOyMbd2Tq34mS1g4ZKBfjRlzOohQMxx28x6wJg==}
 
   /chalk@4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
@@ -2165,7 +2165,7 @@ packages:
       '@next/env': 13.4.4
       '@swc/helpers': 0.5.1
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001492
+      caniuse-lite: 1.0.30001494
       postcss: 8.4.14
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
