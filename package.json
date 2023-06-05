@@ -7,8 +7,7 @@
     "lint": "eslint . --fix",
     "typecheck": "vue-tsc --noEmit",
     "preview": "vite preview",
-    "up": "taze major -I",
-    "postinstall": "pnpx simple-git-hooks"
+    "up": "taze major -I"
   },
   "dependencies": {
     "@vueuse/core": "^10.1.2",
