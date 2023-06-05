@@ -446,3 +446,10 @@ $RECYCLE.BIN/
 
 # typescript
 next-env.d.ts
+
+.vite-ssg-dist
+.vite-ssg-temp
+*.local
+dist-ssr
+node_modules
+.idea/
