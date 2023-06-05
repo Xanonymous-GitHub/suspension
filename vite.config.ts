@@ -1,11 +1,12 @@
 import path from 'node:path'
-import { defineConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'
-import Pages from 'vite-plugin-pages'
-import Components from 'unplugin-vue-components/vite'
-import AutoImport from 'unplugin-auto-import/vite'
 import UnoCSS from 'unocss/vite'
+import AutoImport from 'unplugin-auto-import/vite'
+import Components from 'unplugin-vue-components/vite'
 import VueMacros from 'unplugin-vue-macros/vite'
+import { defineConfig } from 'vite'
+import { createHtmlPlugin } from 'vite-plugin-html'
+import Pages from 'vite-plugin-pages'
 
 export default defineConfig({
   resolve: {
@@ -52,6 +53,12 @@ export default defineConfig({
     // https://github.com/antfu/unocss
     // see uno.config.ts for config
     UnoCSS(),
+
+    createHtmlPlugin({
+      minify: true,
+      entry: 'src/main.ts',
+      template: 'index.html',
+    }),
   ],
   esbuild: {
     legalComments: 'none',
